@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T14:18:46Z" name="Default suite" finished-at="2022-03-04T14:20:57Z" duration-ms="130933">
+    <groups>
+    </groups>
+    <test started-at="2022-03-04T14:18:46Z" name="Default test" finished-at="2022-03-04T14:20:57Z" duration-ms="130933">
+      <class name="com.webshop.qa.testcases.OrderNumber_LogOutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:48:46Z" name="setup" finished-at="2022-03-04T19:49:22Z" duration-ms="36092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOrderPlacementMessageTest()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:22Z" name="verifyOrderPlacementMessageTest" finished-at="2022-03-04T19:49:23Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPlacementMessageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:23Z" name="tearDown" finished-at="2022-03-04T19:49:24Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:24Z" name="setup" finished-at="2022-03-04T19:50:06Z" duration-ms="41760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="captureTheOrderNumberTest()[pri:1, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:06Z" name="captureTheOrderNumberTest" finished-at="2022-03-04T19:50:06Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureTheOrderNumberTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:06Z" name="tearDown" finished-at="2022-03-04T19:50:07Z" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:07Z" name="setup" finished-at="2022-03-04T19:50:54Z" duration-ms="47665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnContinueBtnAndLogoutTest()[pri:2, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:54Z" name="clickOnContinueBtnAndLogoutTest" finished-at="2022-03-04T19:50:56Z" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContinueBtnAndLogoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:56Z" name="tearDown" finished-at="2022-03-04T19:50:57Z" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webshop.qa.testcases.OrderNumber_LogOutPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
