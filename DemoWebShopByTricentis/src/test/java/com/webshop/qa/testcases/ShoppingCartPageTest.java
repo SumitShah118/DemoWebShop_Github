@@ -11,6 +11,7 @@ import com.webshop.qa.pages.HomePage;
 import com.webshop.qa.pages.LandingPage;
 import com.webshop.qa.pages.LoginPage;
 import com.webshop.qa.pages.ShoppingCartPage;
+import com.webshop.qa.util.TestUtil;
 
 public class ShoppingCartPageTest extends TestBase{
 	
@@ -40,6 +41,11 @@ public class ShoppingCartPageTest extends TestBase{
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	@Test
+	public void validateBrokenLinksOnLandingPage() {
+		TestUtil.validateBrokenLink();
 	}
 	
 	@Test(priority = 0)

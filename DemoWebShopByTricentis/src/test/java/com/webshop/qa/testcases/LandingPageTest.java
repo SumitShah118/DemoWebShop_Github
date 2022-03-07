@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.webshop.qa.base.TestBase;
 import com.webshop.qa.pages.LandingPage;
 import com.webshop.qa.pages.LoginPage;
+import com.webshop.qa.util.TestUtil;
 
 public class LandingPageTest extends TestBase {
 
@@ -17,7 +18,7 @@ public class LandingPageTest extends TestBase {
 	public LandingPageTest() {
 		super();
 	}
-	
+
 	@BeforeMethod
 	public void setup() {
 		initialization();
@@ -28,6 +29,11 @@ public class LandingPageTest extends TestBase {
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	@Test
+	public void validateBrokenLinksOnLandingPage() {
+		TestUtil.validateBrokenLink();
 	}
 	
 	@Test(priority = 0)

@@ -1,49 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-04T14:18:46Z" name="Default suite" finished-at="2022-03-04T14:20:57Z" duration-ms="130933">
+  <suite started-at="2022-03-07T12:17:40Z" name="Default suite" finished-at="2022-03-07T12:19:28Z" duration-ms="108313">
     <groups>
     </groups>
-    <test started-at="2022-03-04T14:18:46Z" name="Default test" finished-at="2022-03-04T14:20:57Z" duration-ms="130933">
-      <class name="com.webshop.qa.testcases.OrderNumber_LogOutPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:48:46Z" name="setup" finished-at="2022-03-04T19:49:22Z" duration-ms="36092" status="PASS">
+    <test started-at="2022-03-07T12:17:40Z" name="Default test" finished-at="2022-03-07T12:19:28Z" duration-ms="108313">
+      <class name="com.webshop.qa.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:47:40Z" name="setup" finished-at="2022-03-07T17:47:56Z" duration-ms="15639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyOrderPlacementMessageTest()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:22Z" name="verifyOrderPlacementMessageTest" finished-at="2022-03-04T19:49:23Z" duration-ms="106" status="PASS">
+        <test-method signature="validateBrokenLinksOnLandingPage()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:47:56Z" name="validateBrokenLinksOnLandingPage" finished-at="2022-03-07T17:48:42Z" duration-ms="46838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderPlacementMessageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:23Z" name="tearDown" finished-at="2022-03-04T19:49:24Z" duration-ms="1274" status="PASS">
+        </test-method> <!-- validateBrokenLinksOnLandingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:48:42Z" name="tearDown" finished-at="2022-03-07T17:48:43Z" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:49:24Z" name="setup" finished-at="2022-03-04T19:50:06Z" duration-ms="41760" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:48:43Z" name="setup" finished-at="2022-03-07T17:48:49Z" duration-ms="6268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="captureTheOrderNumberTest()[pri:1, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:06Z" name="captureTheOrderNumberTest" finished-at="2022-03-04T19:50:06Z" duration-ms="83" status="PASS">
+        <test-method signature="verifyLandingPageTitleTest()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:48:49Z" name="verifyLandingPageTitleTest" finished-at="2022-03-07T17:48:49Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureTheOrderNumberTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:06Z" name="tearDown" finished-at="2022-03-04T19:50:07Z" duration-ms="865" status="PASS">
+        </test-method> <!-- verifyLandingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:48:49Z" name="tearDown" finished-at="2022-03-07T17:48:50Z" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:07Z" name="setup" finished-at="2022-03-04T19:50:54Z" duration-ms="47665" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:48:50Z" name="setup" finished-at="2022-03-07T17:49:07Z" duration-ms="17189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickOnContinueBtnAndLogoutTest()[pri:2, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:54Z" name="clickOnContinueBtnAndLogoutTest" finished-at="2022-03-04T19:50:56Z" duration-ms="2138" status="PASS">
+        <test-method signature="verifyLoginLinkDisplayTest()[pri:1, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:07Z" name="verifyLoginLinkDisplayTest" finished-at="2022-03-07T17:49:07Z" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnContinueBtnAndLogoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.OrderNumber_LogOutPageTest@449a4f23]" started-at="2022-03-04T19:50:56Z" name="tearDown" finished-at="2022-03-04T19:50:57Z" duration-ms="902" status="PASS">
+        </test-method> <!-- verifyLoginLinkDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:07Z" name="tearDown" finished-at="2022-03-07T17:49:08Z" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.webshop.qa.testcases.OrderNumber_LogOutPageTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:08Z" name="setup" finished-at="2022-03-07T17:49:20Z" duration-ms="11797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWebShopImagePresentTest()[pri:2, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:20Z" name="verifyWebShopImagePresentTest" finished-at="2022-03-07T17:49:20Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebShopImagePresentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:20Z" name="tearDown" finished-at="2022-03-07T17:49:20Z" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:20Z" name="setup" finished-at="2022-03-07T17:49:27Z" duration-ms="7138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnLoginLinkTest()[pri:3, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:27Z" name="clickOnLoginLinkTest" finished-at="2022-03-07T17:49:28Z" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webshop.qa.testcases.LandingPageTest@5b1669c0]" started-at="2022-03-07T17:49:28Z" name="tearDown" finished-at="2022-03-07T17:49:28Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webshop.qa.testcases.LandingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

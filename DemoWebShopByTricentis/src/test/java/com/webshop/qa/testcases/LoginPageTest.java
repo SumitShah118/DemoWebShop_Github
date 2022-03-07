@@ -9,6 +9,7 @@ import com.webshop.qa.base.TestBase;
 import com.webshop.qa.pages.HomePage;
 import com.webshop.qa.pages.LandingPage;
 import com.webshop.qa.pages.LoginPage;
+import com.webshop.qa.util.TestUtil;
 
 public class LoginPageTest extends TestBase {
 
@@ -32,6 +33,11 @@ public class LoginPageTest extends TestBase {
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	@Test
+	public void validateBrokenLinksOnLandingPage() {
+		TestUtil.validateBrokenLink();
 	}
 	
 	@Test(priority = 0)

@@ -12,6 +12,7 @@ import com.webshop.qa.pages.LandingPage;
 import com.webshop.qa.pages.LoginPage;
 import com.webshop.qa.pages.OrderNumber_LogOutPage;
 import com.webshop.qa.pages.ShoppingCartPage;
+import com.webshop.qa.util.TestUtil;
 
 public class OrderNumber_LogOutPageTest extends TestBase{
 
@@ -45,6 +46,11 @@ public class OrderNumber_LogOutPageTest extends TestBase{
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	@Test
+	public void validateBrokenLinksOnLandingPage() {
+		TestUtil.validateBrokenLink();
 	}
 	
 	@Test(priority = 0)

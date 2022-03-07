@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.webshop.qa.testcases.OrderNumber_LogOutPageTest">
+      <class name="com.webshop.qa.testcases.LandingPageTest">
         <methods>
-          <include name="clickOnContinueBtnAndLogoutTest"/>
+          <include name="validateBrokenLinksInWebPage"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyOrderPlacementMessageTest"/>
+          <include name="clickOnLoginLinkTest"/>
+          <include name="verifyLoginLinkDisplayTest"/>
+          <include name="verifyWebShopImagePresentTest"/>
+          <include name="verifyLandingPageTitleTest"/>
         </methods>
-      </class> <!-- com.webshop.qa.testcases.OrderNumber_LogOutPageTest -->
+      </class> <!-- com.webshop.qa.testcases.LandingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
